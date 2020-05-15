@@ -23,6 +23,7 @@ class UsersController < ApplicationController
       redirect_to edit_users_path
     else
       render :edit
+    end
   end
 
   private
