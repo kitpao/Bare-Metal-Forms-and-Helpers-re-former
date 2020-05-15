@@ -1,0 +1,33 @@
+
+
+<form action="/users" accept-charset="UTF-8" method="post" class="col s12 row">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="username" name="user[username]" type="text" class="validate">
+      <label for="username">User name</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="password" type="password" name="user[password]" class="validate">
+      <label for="password">Password</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="email" type="email" name="user[email]" class="validate">
+      <label for="email">Email</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input type="submit" value="Create" class="validate">
+    </div>
+  </div>
+</form>
