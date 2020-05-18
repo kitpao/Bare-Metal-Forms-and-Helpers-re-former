@@ -1,0 +1,42 @@
+<%= form_for @user do |f| %>
+
+  <% if @user.errors.any? %>
+    <div id="error_explanation" class="card-panel red lighten-1">
+      <h5 class="center-align">'<%= pluralize(@user.errors.count, 'error') %> prohibited this user from being saved'</h5>
+      <ul class="center-align">
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+ <div class='row'>
+    <fieldset class='col s7 offset-s1'>
+      <legend>Register Now!</legend>
+      <div class='row'>
+        <div class='input-field col s10 offset-s1'>
+          <%= f.text_field :username, class: 'validate' %>
+          <%= f.label :username, 'User name' %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <%= f.password_field :password, class: 'validate' %>
+          <%= f.label :password, 'Password' %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <%= f.email_field :email, placeholder: 'example@gmail.com', class: 'validate' %>
+          <%= f.label :email, 'E-mail' %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <%= f.button  class: ['waves-effect', 'waves-light', 'btn'] %>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+<% end %>
