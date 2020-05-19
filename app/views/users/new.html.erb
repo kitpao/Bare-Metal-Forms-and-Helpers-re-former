@@ -1,1 +1,67 @@
 <%= render 'form' %>
+
+
+<!-- 
+<form action="/users" accept-charset="UTF-8" method="post" class="col s12 row">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="username" name="user[username]" type="text" class="validate">
+      <label for="username">User name</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="password" type="password" name="user[password]" class="validate">
+      <label for="password">Password</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input id="email" type="email" name="user[email]" class="validate">
+      <label for="email">Email</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <input type="submit" value="Create" class="validate">
+    </div>
+  </div>
+</form>
+
+
+<%= form_tag(users_path, method: 'post', class: 'col s12 row') do %>
+  <div class='row'>
+    <div class='col s1'></div>
+    <div class='input-field col s6'>
+      <%= text_field_tag(:username, nil, class: 'validate') %>
+      <%= label_tag(:username, 'User name') %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <%= password_field_tag(:password, nil, class: 'validate') %>
+      <%= label_tag(:password, 'Password') %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <%= email_field_tag(:email, nil, class: 'validate') %>
+      <%= label_tag(:email, 'E-mail') %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="input-field col s6">
+      <%= button_tag('Create', class: ['waves-effect', 'waves-light', 'btn']) %>
+    </div>
+  </div>
+<% end %>
+-->
