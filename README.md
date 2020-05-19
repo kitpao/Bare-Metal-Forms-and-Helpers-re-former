@@ -51,6 +51,7 @@ The project was developed using the following technologies:
 - [RUBY](https://www.ruby-lang.org/es/)
 - [RUBOCOP LINTERN](https://github.com/microverseinc/linters-config/tree/master/ruby)
 - [RAILS](https://rubyonrails.org/)
+- [Materialize library](https://materializecss.com/)
 
 ## Usage
 
