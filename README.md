@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h2 align="center"> Bare Metal Forms and Helpers </h2>
+  <h2 align="center"> Bare Metal Forms and Helpers</h2>
   <p align="center">
       Creating a User Form with the backend needed to store the information. With focus on the new user and Edit User forms... See it in action!!!
     <br />
