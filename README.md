@@ -136,4 +136,3 @@ See the [open issues](https://github.com/kitpao/Bare-Metal-Forms-and-Helpers-re-
 [linkedin-url2]: https://www.linkedin.com/in/edcrux/
 [product-screenshot]: screenshot.png
 [product-example]: image.png
-
