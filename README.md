@@ -26,6 +26,7 @@
 ## Table of Contents
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+* [Future features](#future-features)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contact](#contact)
@@ -52,6 +53,10 @@ The project was developed using the following technologies:
 - [RUBOCOP LINTERN](https://github.com/microverseinc/linters-config/tree/master/ruby)
 - [RAILS](https://rubyonrails.org/)
 - [Materialize library](https://materializecss.com/)
+
+
+## Future Features
+  * It will be deployed on Heroku 
 
 ## Usage
 
