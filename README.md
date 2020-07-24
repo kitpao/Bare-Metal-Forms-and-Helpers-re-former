@@ -23,7 +23,7 @@
   </p>
 </p>
 
-## Table of Contents
+## Table of Contents with an edition
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Future features](#future-features)
